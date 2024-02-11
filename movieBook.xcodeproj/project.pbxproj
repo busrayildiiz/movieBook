@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52FBDA2A2B762E9300611AE5 /* movieBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FBDA292B762E9300611AE5 /* movieBookApp.swift */; };
-		52FBDA2C2B762E9300611AE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FBDA2B2B762E9300611AE5 /* ContentView.swift */; };
+		5264DD092B76ABF600D0969A /* FilmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264DD082B76ABF600D0969A /* FilmViewModel.swift */; };
+		5264DD0B2B778FC600D0969A /* ImageDownloaderClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264DD0A2B778FC600D0969A /* ImageDownloaderClient.swift */; };
+		5264DD0D2B77916E00D0969A /* OzelImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264DD0C2B77916E00D0969A /* OzelImage.swift */; };
+		5264DD0F2B77A1CA00D0969A /* FilmDetay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264DD0E2B77A1CA00D0969A /* FilmDetay.swift */; };
+		5264DD112B77BBD100D0969A /* FilmDetayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264DD102B77BBD100D0969A /* FilmDetayViewModel.swift */; };
+		5264DD132B77C01C00D0969A /* DetayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264DD122B77C01C00D0969A /* DetayView.swift */; };
+		52FBDA2A2B762E9300611AE5 /*  .swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FBDA292B762E9300611AE5 /*  .swift */; };
+		52FBDA2C2B762E9300611AE5 /* FilmListeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FBDA2B2B762E9300611AE5 /* FilmListeView.swift */; };
 		52FBDA2E2B762E9500611AE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FBDA2D2B762E9500611AE5 /* Assets.xcassets */; };
 		52FBDA312B762E9500611AE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FBDA302B762E9500611AE5 /* Preview Assets.xcassets */; };
+		52FBDA3C2B76347600611AE5 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FBDA3B2B76347600611AE5 /* Film.swift */; };
+		52FBDA3F2B76407C00611AE5 /* DownloaderClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FBDA3E2B76407C00611AE5 /* DownloaderClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5264DD082B76ABF600D0969A /* FilmViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmViewModel.swift; sourceTree = "<group>"; };
+		5264DD0A2B778FC600D0969A /* ImageDownloaderClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloaderClient.swift; sourceTree = "<group>"; };
+		5264DD0C2B77916E00D0969A /* OzelImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OzelImage.swift; sourceTree = "<group>"; };
+		5264DD0E2B77A1CA00D0969A /* FilmDetay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmDetay.swift; sourceTree = "<group>"; };
+		5264DD102B77BBD100D0969A /* FilmDetayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmDetayViewModel.swift; sourceTree = "<group>"; };
+		5264DD122B77C01C00D0969A /* DetayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayView.swift; sourceTree = "<group>"; };
 		52FBDA262B762E9300611AE5 /* movieBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = movieBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		52FBDA292B762E9300611AE5 /* movieBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieBookApp.swift; sourceTree = "<group>"; };
-		52FBDA2B2B762E9300611AE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52FBDA292B762E9300611AE5 /*  .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " .swift"; sourceTree = "<group>"; };
+		52FBDA2B2B762E9300611AE5 /* FilmListeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmListeView.swift; sourceTree = "<group>"; };
 		52FBDA2D2B762E9500611AE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52FBDA302B762E9500611AE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52FBDA3B2B76347600611AE5 /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		52FBDA3E2B76407C00611AE5 /* DownloaderClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloaderClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +67,11 @@
 		52FBDA282B762E9300611AE5 /* movieBook */ = {
 			isa = PBXGroup;
 			children = (
-				52FBDA292B762E9300611AE5 /* movieBookApp.swift */,
-				52FBDA2B2B762E9300611AE5 /* ContentView.swift */,
+				52FBDA3D2B76374000611AE5 /* Service */,
+				52FBDA3A2B76344D00611AE5 /* App */,
+				52FBDA392B76344300611AE5 /* View */,
+				52FBDA382B76343700611AE5 /* ViewModel */,
+				52FBDA372B76338000611AE5 /* Model */,
 				52FBDA2D2B762E9500611AE5 /* Assets.xcassets */,
 				52FBDA2F2B762E9500611AE5 /* Preview Content */,
 			);
@@ -65,6 +84,51 @@
 				52FBDA302B762E9500611AE5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52FBDA372B76338000611AE5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52FBDA3B2B76347600611AE5 /* Film.swift */,
+				5264DD0E2B77A1CA00D0969A /* FilmDetay.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52FBDA382B76343700611AE5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5264DD082B76ABF600D0969A /* FilmViewModel.swift */,
+				5264DD102B77BBD100D0969A /* FilmDetayViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		52FBDA392B76344300611AE5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52FBDA2B2B762E9300611AE5 /* FilmListeView.swift */,
+				5264DD0C2B77916E00D0969A /* OzelImage.swift */,
+				5264DD122B77C01C00D0969A /* DetayView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52FBDA3A2B76344D00611AE5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				52FBDA292B762E9300611AE5 /*  .swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		52FBDA3D2B76374000611AE5 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				52FBDA3E2B76407C00611AE5 /* DownloaderClient.swift */,
+				5264DD0A2B778FC600D0969A /* ImageDownloaderClient.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +201,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52FBDA2C2B762E9300611AE5 /* ContentView.swift in Sources */,
-				52FBDA2A2B762E9300611AE5 /* movieBookApp.swift in Sources */,
+				5264DD132B77C01C00D0969A /* DetayView.swift in Sources */,
+				52FBDA2C2B762E9300611AE5 /* FilmListeView.swift in Sources */,
+				52FBDA3C2B76347600611AE5 /* Film.swift in Sources */,
+				5264DD0D2B77916E00D0969A /* OzelImage.swift in Sources */,
+				5264DD092B76ABF600D0969A /* FilmViewModel.swift in Sources */,
+				52FBDA2A2B762E9300611AE5 /*  .swift in Sources */,
+				52FBDA3F2B76407C00611AE5 /* DownloaderClient.swift in Sources */,
+				5264DD0F2B77A1CA00D0969A /* FilmDetay.swift in Sources */,
+				5264DD112B77BBD100D0969A /* FilmDetayViewModel.swift in Sources */,
+				5264DD0B2B778FC600D0969A /* ImageDownloaderClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +342,7 @@
 				DEVELOPMENT_TEAM = 2GF6Y44N8Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = movieBook/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -299,7 +371,7 @@
 				DEVELOPMENT_TEAM = 2GF6Y44N8Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = movieBook/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
